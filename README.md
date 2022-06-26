@@ -29,7 +29,7 @@
 <p>To learn!</p>
 <li>Authentication using JWT tokens, store cookies and start session for current user</li>
 <li>Scalable architecture and reduce repeatativeness in code base</li>
-<li></li>
+<li>Secured routes using various Strategies</li>
 </ul>
 
 

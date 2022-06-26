@@ -44,7 +44,7 @@ To istall Docker please [refer here](https://docs.docker.com/engine/install/)
 # development
 $ docker-compose up --build -V
 ```
-This would pull the necessary images from docker hub and start the containers
+This would pull the necessary docker images from dockerhub and start the docker containers
 
 ## Test
 

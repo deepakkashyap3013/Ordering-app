@@ -53,3 +53,13 @@ Request BODY:
   "password":"some-password"
 }
 ```
+```sh
+POST /auth/login
+
+Request BODY:
+{
+  "email":some@email.com,
+  "password":"some-password"
+}
+```
+

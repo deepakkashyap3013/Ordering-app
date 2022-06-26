@@ -34,16 +34,17 @@ $ npm install
 
 ## Running the app
 
+### Prerequisites
+Make sure to have Docker installed in your machine.
+To istall Docker please [refer here](https://docs.docker.com/engine/install/)
+
+```Once Docker installation is successfull head over to next step!!```
+
 ```bash
 # development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ docker-compose up --build -V
 ```
+This would pull the necessary images from docker hub and start the containers
 
 ## Test
 
@@ -58,16 +59,3 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).

@@ -45,7 +45,7 @@ This would pull the necessary docker images from dockerhub and start the docker 
 ## API references
 
 ```sh
-POST /auth/users
+POST http://localhost:3001/auth/users
 
 Request BODY:
 {
@@ -54,7 +54,7 @@ Request BODY:
 }
 ```
 ```sh
-POST /auth/login
+POST http://localhost:3001/auth/login
 
 Request BODY:
 {

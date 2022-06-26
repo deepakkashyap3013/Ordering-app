@@ -46,9 +46,7 @@ This would pull the necessary docker images from dockerhub and start the docker 
 
 ```sh
 POST http://localhost:3001/auth/users
-```
 Request BODY:
-```
 {
   "email":some@email.com,
   "password":"some-password"
@@ -56,9 +54,8 @@ Request BODY:
 ```
 ```sh
 POST http://localhost:3001/auth/login
-```
+
 Request BODY:
-```
 {
   "email":some@email.com,
   "password":"some-password"

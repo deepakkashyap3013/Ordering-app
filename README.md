@@ -48,7 +48,6 @@ This would pull the necessary docker images from dockerhub and start the docker 
 POST /auth/users
 
 Request BODY:
-
 {
   "email":some@email.com,
   "password":"some-password"

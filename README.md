@@ -53,6 +53,7 @@ Request BODY:
   "password":"some-password"
 }
 ```
+
 ```sh
 POST http://localhost:3001/auth/login
 
@@ -62,8 +63,9 @@ Request BODY:
   "password":"some-password"
 }
 ```
+
 ```sh
-POST http://localhost:300o/orders
+POST http://localhost:3000/orders
 
 Request BODY:
 {
@@ -73,3 +75,28 @@ Request BODY:
 }
 ```
 
+```sh
+GET http://localhost:3000/orders
+
+Response Type:
+[
+  {
+  "name":"some-product-name-1",
+  "price":0.00,
+  "phoneNumber":"+301111111123"
+  },
+  {
+  "name":"some-product-name-2",
+  "price":0.00,
+  "phoneNumber":"+301111111234"
+  },
+  .
+  .
+  .,
+  {
+  "name":"some-product-name-N",
+  "price":0.00,
+  "phoneNumber":"+301111111111"
+  }
+]
+```

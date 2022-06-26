@@ -23,8 +23,8 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## About the Application
-<h5>A backend API project using Nestjs that uses Microservices architecture built with RabbitMQ, NoSQL database such as MongoDB to persist data and Docker for containerising the application.</h5>
-<h5>Purpose of building the App :</h5>
+<h3>A backend API project using Nestjs that uses Microservices architecture built with RabbitMQ, NoSQL database such as MongoDB to persist data and Docker for containerising the application.</h3>
+<h3>Purpose of building the App :</h3>
 <ul>
 <p>To learn</p>
 <li>Scalable Microservice architecture and reduce repeatativeness in code for cleaner Codebase</li>

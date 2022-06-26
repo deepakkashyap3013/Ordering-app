@@ -24,12 +24,13 @@
 
 ## About the Application
 <h5>A backend API project using Nestjs that uses Microservices architecture built with RabbitMQ, NoSQL database such as MongoDB to persist data and Docker for containerising the application.</h5>
-<h5>Purpose of building the App:</h5>
+<h5>Purpose of building the App :</h5>
 <ul>
-<p>To learn!</p>
-<li>Authentication using JWT tokens, store cookies and start session for current user</li>
-<li>Scalable Microservice architecture and reduce repeatativeness in code base</li>
-<li>Secure routes using various Strategies</li>
+<p>To learn</p>
+<li>Scalable Microservice architecture and reduce repeatativeness in code for cleaner Codebase</li>
+<li>Authentication using JWT tokens, create cookies and session for current user</li>
+<li>To Secure routes using various Strategies</li>
+<li>Containerised development of application using Docker</li>
 </ul>
 
 
